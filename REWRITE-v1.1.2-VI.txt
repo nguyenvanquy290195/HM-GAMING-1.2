@@ -1,0 +1,12 @@
+HM GAMING iOS v1.1.2 - REWRITE TỪ SOURCE GỐC
+
+Thay đổi app:
+- AIM loại multi_delete nhận đúng 2 file từ access.php.
+- Bật AIM: tải và ghi cả 2 file vào destination_path của từng file; cho phép tạo file nếu chưa tồn tại.
+- Nếu file thứ 2 lỗi, app xóa file đã cài ở lượt đó để tránh trạng thái nửa vời.
+- Tắt AIM multi_delete: đọc restore_mode=delete + delete_paths và xóa các file đó, không dùng file gốc.
+- AIM V2/ESP replace_restore giữ nguyên cơ chế cũ.
+- Thêm nút XÁC THỰC: đọc Documents/ffrts_log.txt, tạo hama.lic Step5 UTC, kiểm tra lại rồi mới xóa log.
+- Version 1.1.2 / build 8.
+
+Server đang chạy phải là bản access.php/lib.php AIM2FILE hiện tại.
